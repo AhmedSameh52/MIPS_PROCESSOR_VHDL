@@ -1,0 +1,3 @@
+vhdl work "ALUControl.vhd"
+vhdl work "Control.vhd"
+vhdl work "Adder_32_BIT.vhd"

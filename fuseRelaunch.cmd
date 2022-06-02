@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Xilinx/Major_Task_Phase2/test_isim_beh.exe" -prj "C:/Xilinx/Major_Task_Phase2/test_beh.prj" "work.test" 

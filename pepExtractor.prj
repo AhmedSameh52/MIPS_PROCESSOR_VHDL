@@ -1,0 +1,5 @@
+work	"Decoder1.vhd"
+work	"Mux32.vhd"
+work	"Pack1.vhd"
+work	"RegisterFile.vhd"
+work	"reg.vhd"

@@ -1,0 +1,59 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "secureip" -o "C:/Xilinx/Major_Task_Phase2/test_isim_beh.exe" -prj "C:/Xilinx/Major_Task_Phase2/test_beh.prj" "work.test" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 16
+Turning on mult-threading, number of parallel sub-compilation jobs: 32 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Xilinx/Major_Task_Phase2/reg.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Major_Task_Phase2/Pack1.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Major_Task_Phase2/Mux32.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Major_Task_Phase2/Decoder1.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Major_Task_Phase2/SLL_32BIT.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Major_Task_Phase2/SLL2_26BIT.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Major_Task_Phase2/SignExtend.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Major_Task_Phase2/RegisterFile.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Major_Task_Phase2/ProgramCounter.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Major_Task_Phase2/MyPackage.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Major_Task_Phase2/MUX5BITS_2_to_1.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Major_Task_Phase2/MUX32BITS_2_TO_1.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Major_Task_Phase2/INSTRMEMORY.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Major_Task_Phase2/DataMemory.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Major_Task_Phase2/Control.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Major_Task_Phase2/ALUControl.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Major_Task_Phase2/ALU.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Major_Task_Phase2/Adder_32_BIT.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Major_Task_Phase2/MainModule.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Major_Task_Phase2/TestBench.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package mypackage
+Compiling package numeric_std
+Compiling package pack1
+Compiling package std_logic_arith
+Compiling package std_logic_signed
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity ProgramCounter [programcounter_default]
+Compiling architecture behavioral of entity INSTRMEMORY [instrmemory_default]
+Compiling architecture behavioral of entity Decoder1 [decoder1_default]
+Compiling architecture behavioral of entity reg [reg_default]
+Compiling architecture behavioral of entity Mux32 [mux32_default]
+Compiling architecture behavioral of entity RegisterFile [registerfile_default]
+Compiling architecture behavioral of entity Control [control_default]
+Compiling architecture behavioral of entity SignExtend [signextend_default]
+Compiling architecture behavior of entity ALUControl [alucontrol_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity DataMemory [\DataMemory(64,32,32)\]
+Compiling architecture behavior of entity Adder_32_BIT [adder_32_bit_default]
+Compiling architecture behavioral of entity SLL2_26BIT [sll2_26bit_default]
+Compiling architecture behavioral of entity SLL_32BIT [sll_32bit_default]
+Compiling architecture behavioral of entity MUX5BITS_2_to_1 [mux5bits_2_to_1_default]
+Compiling architecture behavioral of entity MUX32BITS_2_TO_1 [mux32bits_2_to_1_default]
+Compiling architecture behavioral of entity MainModule [mainmodule_default]
+Compiling architecture behavior of entity test
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 43 VHDL Units
+Built simulation executable C:/Xilinx/Major_Task_Phase2/test_isim_beh.exe
+Fuse Memory Usage: 38980 KB
+Fuse CPU Usage: 1062 ms
